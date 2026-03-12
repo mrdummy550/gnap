@@ -1,0 +1,26 @@
+{
+  "name": "Farol Labs",
+  "mission": "Build the future of AI-native work",
+  "goals": [
+    {
+      "id": "g1",
+      "text": "$1M MRR by Dec 31 2026",
+      "metric": "mrr_usd",
+      "target": 1000000,
+      "deadline": "2026-12-31",
+      "status": "active"
+    },
+    {
+      "id": "g2",
+      "text": "$200K revenue by May 23 2026",
+      "metric": "revenue_usd",
+      "target": 200000,
+      "deadline": "2026-05-23",
+      "status": "active"
+    }
+  ],
+  "constraints": [
+    "Billing (Stripe) not yet live"
+  ],
+  "updated_at": "2026-03-12T10:00:00Z"
+}

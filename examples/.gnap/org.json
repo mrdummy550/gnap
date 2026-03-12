@@ -1,0 +1,60 @@
+{
+  "agents": [
+    {
+      "id": "ori",
+      "name": "Ori",
+      "role": "Co-Founder / Strategy",
+      "type": "ai",
+      "runtime": "openclaw",
+      "reports_to": null,
+      "capabilities": ["research", "writing", "planning", "coding", "design"],
+      "heartbeat_sec": 1800,
+      "budget_monthly_usd": 200,
+      "status": "active",
+      "contact": {
+        "github": "ori-cofounder",
+        "telegram": "@FarolWorkspaceBot"
+      }
+    },
+    {
+      "id": "carl",
+      "name": "Carl",
+      "role": "CRO",
+      "type": "ai",
+      "runtime": "openclaw",
+      "reports_to": "ori",
+      "capabilities": ["sales", "outreach", "analytics"],
+      "heartbeat_sec": 3600,
+      "budget_monthly_usd": 100,
+      "status": "active",
+      "contact": {
+        "telegram": "@cromoneybot"
+      }
+    },
+    {
+      "id": "leo",
+      "name": "Leonid",
+      "role": "CTO",
+      "type": "human",
+      "reports_to": null,
+      "capabilities": ["infra", "coding", "devops"],
+      "status": "active",
+      "contact": {
+        "telegram": "@dinershtein1"
+      }
+    },
+    {
+      "id": "mayak",
+      "name": "Alex",
+      "role": "Chairman / Strategy",
+      "type": "human",
+      "reports_to": null,
+      "capabilities": ["strategy", "sales", "design"],
+      "status": "active",
+      "contact": {
+        "telegram": "@mayak_01"
+      }
+    }
+  ],
+  "updated_at": "2026-03-12T10:00:00Z"
+}

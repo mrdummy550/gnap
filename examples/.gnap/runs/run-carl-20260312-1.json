@@ -1,0 +1,15 @@
+{
+  "id": "run-carl-20260312-1",
+  "task_id": "carl-lead-pipeline",
+  "agent": "carl",
+  "attempt": 1,
+  "started_at": "2026-03-12T10:00:00Z",
+  "finished_at": "2026-03-12T10:28:00Z",
+  "status": "completed",
+  "result": "Found 8/20 leads. Continuing next run.",
+  "error": null,
+  "tokens_in": 4200,
+  "tokens_out": 12800,
+  "cost_usd": 0.42,
+  "artifacts": ["leads/q2-pipeline.csv"]
+}
