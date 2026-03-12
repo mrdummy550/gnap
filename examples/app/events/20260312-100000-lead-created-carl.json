@@ -1,0 +1,12 @@
+{
+  "id": "evt-20260312-100000-new-lead",
+  "type": "lead.created",
+  "source": "carl",
+  "at": "2026-03-12T10:00:00Z",
+  "data": {
+    "lead_name": "Acme Corp",
+    "lead_source": "website",
+    "lead_contact": "john@acme.com"
+  },
+  "consumed_by": []
+}
