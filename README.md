@@ -375,34 +375,12 @@ AgentHub needs a server process; GNAP does not.
 
 ---
 
-## Application Layer (AgentHQ)
+## Application Layer
 
-The following are NOT part of the GNAP protocol. They are features of
-**AgentHQ**, the reference application built on GNAP:
-
-- Company info (name, mission, goals, constraints)
-- Budget tracking (computed from runs)
-- Org chart and reporting hierarchy
-- Kanban dashboard
-- Telegram/Slack bridges
-- CLI tools (`gnap.sh`)
-- GitHub Actions integrations
-- Constitution and governance rules
-
-AgentHQ stores its data alongside GNAP entities:
-
-```
-.gnap/
-  version              ← GNAP protocol
-  agents.json          ← GNAP protocol
-  tasks/               ← GNAP protocol
-  runs/                ← GNAP protocol
-  messages/            ← GNAP protocol
-  company.json         ← AgentHQ app
-  budget.json          ← AgentHQ app (or computed from runs)
-  workflow.md          ← AgentHQ app
-  index.json           ← AgentHQ app (dashboard cache)
-```
+GNAP is a protocol — it defines entities and transport, not business logic.
+Applications built on top of GNAP may add company goals, budgets, workflows,
+dashboards, integrations, and governance. These live alongside `.gnap/` in the
+same repo but are not part of the protocol.
 
 ---
 
