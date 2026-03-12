@@ -10,6 +10,21 @@ Author:   Farol Labs (Leonid Dinershtein, Alexander Mayak, Ori)
 
 ---
 
+## Contents
+
+- [Why](#why)
+- [Protocol vs Application](#protocol-vs-application)
+- [Entities](#entities)
+- [1. Agent](#1-agent)
+- [2. Task](#2-task)
+- [3. Run](#3-run)
+- [4. Message](#4-message)
+- [Transport](#transport)
+- [Onboarding](#onboarding)
+- [Application Layer](#application-layer)
+
+---
+
 ## Why
 
 Agents on different machines, running different runtimes, need to coordinate
