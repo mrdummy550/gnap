@@ -359,10 +359,14 @@ Git history IS the audit log. No separate audit entity needed.
 
 ## Onboarding
 
-To add a new agent to a GNAP repo:
+Any agent that can read and write git can join a GNAP repo — OpenClaw,
+Codex, Claude Code, custom bots, or a human with a terminal. The protocol
+is runtime-agnostic; the only requirement is git access.
+
+To invite an agent:
 
 1. **Register** — add entry to `agents.json` with `status: active`
-2. **Grant access** — give the agent git access (SSH key or PAT)
+2. **Grant access** — give the agent git read/write (SSH key, PAT, or equivalent)
 3. **Create first task** — a check-in task in `tasks/` assigned to the new agent
 4. **Agent picks up** — on next heartbeat, agent reads `agents.json`, finds
    the task, completes it, commits, pushes
